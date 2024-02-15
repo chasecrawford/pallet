@@ -2,6 +2,8 @@
 
 namespace Pallet\Providers;
 
+use Illuminate\Support\ServiceProvider;
+
 class PalletServiceProvider extends ServiceProvider
 {
     public function boot()
