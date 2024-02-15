@@ -20,7 +20,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Pallet\\PalletServiceProvider"
+        "Pallet\\Providers\\PalletServiceProvider"
       ]
     }
   }
