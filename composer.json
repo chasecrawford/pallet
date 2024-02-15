@@ -1,0 +1,27 @@
+{
+  "name": "chasecrawford/pallet",
+  "description": "A heavily opinionated application development framework built with Laravel & Vue.js",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Chase Crawford",
+      "email": "chase@ch4ze.com"
+    }
+  ],
+  "require": {
+    "laravel/framework": "^10.10"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pallet\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Pallet\\PalletServiceProvider"
+      ]
+    }
+  }
+}
