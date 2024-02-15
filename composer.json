@@ -1,7 +1,7 @@
 {
   "name": "chasecrawford/pallet",
   "description": "A heavily opinionated application development framework built with Laravel & Vue.js",
-  "type": "project",
+  "type": "library",
   "license": "MIT",
   "authors": [
     {
