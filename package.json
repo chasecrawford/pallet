@@ -1,4 +1,6 @@
 {
+  "name": "chasecrawford/pallet",
+  "version": "0.1.0",
   "private": true,
   "devDependencies": {
     "@vue/compiler-sfc": "^3.2.11",
