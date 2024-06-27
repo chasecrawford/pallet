@@ -15,7 +15,7 @@ class InstallPallet extends Command
         $this->info('Installing Pallet...');
 
         $this->info('Publishing assets...');
-        $this->callSilent('vendor:publish', ['--tag' => 'pallet']);
+        $this->callSilent('vendor:publish', ['--tag' => 'pallet-assets']);
 
         copy(__DIR__.'/../../package.json', base_path('package.json'));
 
