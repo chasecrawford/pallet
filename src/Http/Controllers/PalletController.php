@@ -9,7 +9,7 @@ class PalletController extends Controller
 {
     public function homepage() : View
     {
-        return view('app', [
+        return view('pallet.app', [
             'primary_component' => 'homepage',
             'input' => []
         ]);

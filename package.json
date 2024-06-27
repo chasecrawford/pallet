@@ -1,10 +1,7 @@
 {
-  "name": "@chasecrawford/pallet",
-  "version": "0.1.0",
   "private": true,
   "devDependencies": {
     "@vue/compiler-sfc": "^3.2.11",
-    "axios": "^0.21",
     "laravel-mix": "^6.0.6",
     "lodash": "^4.17.19",
     "resolve-url-loader": "^4.0.0",
