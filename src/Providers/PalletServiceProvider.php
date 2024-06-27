@@ -15,5 +15,9 @@ class PalletServiceProvider extends ServiceProvider
             __DIR__.'/../../resources/css' => resource_path('css/vendor/pallet'),
             __DIR__.'/../../resources/js' => resource_path('js/vendor/pallet'),
         ], 'pallet');
+
+        $this->commands([
+            \Pallet\Console\Commands\InstallPallet::class,
+        ]);
     }
 }
