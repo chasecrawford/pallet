@@ -20,6 +20,9 @@ class InstallPallet extends Command
         $this->info('Copying package.json...');
         copy(__DIR__.'/../../../package.json', base_path('package.json'));
 
+        $this->info('Copying vite.config.js...');
+        copy(__DIR__.'/../../../vite.config.js', base_path('vite.config.js'));
+
         $this->info('Pallet installed successfully.');
     }
 }
